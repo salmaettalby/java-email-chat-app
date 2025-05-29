@@ -1,0 +1,9 @@
+# DOSSIER LIB - Librairies externes
+#
+# Actions pour finaliser:
+# 1. Télécharger SQLite JDBC si problème de dépendance:
+#    wget https://repo1.maven.org/maven2/org/xerial/sqlite-jdbc/3.42.0.0/sqlite-jdbc-3.42.0.0.jar
+# 2. Placer les JARs JavaFX ici si nécessaire
+# 3. Configurer le classpath avec -cp lib/*
+#
+# Le pom.xml gère déjà les dépendances via Maven

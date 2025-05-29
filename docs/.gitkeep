@@ -1,0 +1,27 @@
+# DOSSIER DOCS - Documentation du projet
+#
+# ACTIONS PHASE FINALE OBLIGATOIRES:
+#
+# 1. TESTS FONCTIONNELS:
+#    - Lancer serveur: mvn spring-boot:run
+#    - Tester 2+ clients simultanés
+#    - Vérifier messages hors ligne
+#    - Tester interface JavaFX: mvn javafx:run
+#
+# 2. VALIDATION DONNÉES:
+#    - Vérifier emails valides/invalides  
+#    - Tester messages vides
+#    - Contrôler déconnexions brutales
+#
+# 3. BASE DE DONNÉES:
+#    - Vérifier création automatique chat.db
+#    - Contrôler persistence des messages
+#    - Tester requêtes historique
+#
+# 4. PERFORMANCE:
+#    - Tester 10+ clients simultanés
+#    - Vérifier gestion mémoire
+#    - Contrôler temps de réponse
+#
+# 5. DOCUMENTATION FINALE
+

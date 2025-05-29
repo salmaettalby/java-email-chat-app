@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    # SQLite Configuration (primary for this environment)
+    url: jdbc:sqlite:chat.db
+    driver-class-name: org.sqlite.JDBC
+  
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.community.dialect.SQLiteDialect
+        format_sql: true
+
+server:
+  port: 8080
+
+chat:
+  server:
+    port: 12345
+  database:
+    type: sqlite # Options: mysql, sqlite
+    connection-pool-size: 10
